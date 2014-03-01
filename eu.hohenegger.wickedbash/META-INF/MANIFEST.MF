@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WickedBash
+Bundle-SymbolicName: eu.hohenegger.wickedbash;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: eu.hohenegger.wickedbash.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.core.di.extensions,
+ org.eclipse.e4.ui.di,
+ org.eclipse.ui.editors,
+ org.eclipse.jface.text,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.emf.edit,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.ui.workbench,
+ com.google.guava,
+ net.sf.wickedshell
+Import-Package: javax.inject;version="1.0.0",javax.annotation; version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

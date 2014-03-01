@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="net.sf.wickedshell.shell">
+      <descriptor
+            binariesDirectory="bin"
+            characterEncoding="US-ASCII"
+            commandDelimiter=";"
+            commandProvider="net.sf.wickedshell.facade.descriptor.command.BashCommandProvider"
+            environmentalValueProvider="net.sf.wickedshell.facade.descriptor.environment.CmdShellEnvironmentalValueProvider"
+            executable="sh.exe --login -i"
+            hasCustomRoot="true"
+            id="eu.hohenegger.wickedbash"
+            isExecutedCommandProvided="false"
+            isUILineFeedProvided="false"
+            lineFeed="LF only"
+            name="Wicked Bash"
+            pathDelimiter=" $"
+            pathSeparator="SLASH"
+            systemPathSeparator=":">
+         <operatingSystem
+               name="Windows 7">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows Vista">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows NT (unknown)">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows XP">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows Server 2003">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows 2003">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows 2000">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows NT">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows 98">
+         </operatingSystem>
+         <operatingSystem
+               name="Windows 95">
+         </operatingSystem>
+         <executableFile
+               description="Shell Script"
+               extension=".sh"
+               isBatchFile="true">
+         </executableFile>
+         <executableFile
+               description="Windows Excecutable"
+               extension=".exe"
+               isBatchFile="false">
+         </executableFile>
+         <executableFile
+               description="Batchfile"
+               extension=".bat"
+               isBatchFile="true">
+         </executableFile>
+      </descriptor>
+   </extension>
+
+</plugin>

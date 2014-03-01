@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="eu.hohenegger.wickedbash" version="1.0.0.qualifier">
+      <category name="eu.hohenegger.wickedbash"/>
+   </bundle>
+   <category-def name="eu.hohenegger.wickedbash" label="WickedBash"/>
+</site>
