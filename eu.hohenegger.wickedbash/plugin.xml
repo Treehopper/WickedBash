@@ -13,7 +13,7 @@
             executable="sh.exe --login -i"
             hasCustomRoot="true"
             id="eu.hohenegger.wickedbash"
-            isExecutedCommandProvided="false"
+            isExecutedCommandProvided="true"
             isUILineFeedProvided="false"
             lineFeed="LF only"
             name="Wicked Bash"
