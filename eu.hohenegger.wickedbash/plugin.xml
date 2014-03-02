@@ -9,7 +9,7 @@
             characterEncoding="US-ASCII"
             commandDelimiter=";"
             commandProvider="net.sf.wickedshell.facade.descriptor.command.BashCommandProvider"
-            environmentalValueProvider="net.sf.wickedshell.facade.descriptor.environment.CmdShellEnvironmentalValueProvider"
+            environmentalValueProvider="eu.hohenegger.wickedbash.GitBashEnvironmentalValueProvider"
             executable="sh.exe --login -i"
             hasCustomRoot="true"
             id="eu.hohenegger.wickedbash"
